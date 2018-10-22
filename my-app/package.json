@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass-chokidar": "^1.3.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts-ts": "3.1.0"
   },
   "scripts": {
+    "build-css": "node-sasschokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -0 src/ --watch --recursive",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
