@@ -1,22 +1,49 @@
 import * as React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
+interface IState {
+	currentTask: string,
+	tasks: Array<string>
+}
 
 class App extends React.Component {
-  public render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+	constructor(props: {}) {
+		super(props);
+
+		this.state = {
+			currentTask: "",
+			tasks: []
+		}
+	}
+
+
+	public handleSubmit(event:any) {
+		event.preventDefault();
+		this.setState({
+			currentTask: "",
+			task:[
+				...this.state.tasks,
+				this.state.currentTask
+			]
+		})
+	}
+
+	public render() {
+		return (
+			<div className="App">
+				<h1>React</h1>
+				<form onSubmit={e => this.handleSubmit(event)}>
+					<input
+						type="text"
+						placeholder="Add a Task"
+					/>
+					<button type="submit">Add Task</button>
+				</form>
+			</div>
+		);
+	}
+
+
 }
 
 export default App;
