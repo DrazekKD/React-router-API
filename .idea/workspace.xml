@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9940e9e-d048-4293-a9cd-177bf1d8b437" name="Default Changelist" comment="">
+    <list default="true" id="d52b0fa3-4421-405f-ac93-34a79b846848" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/auth/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/auth/SingIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/dashboard/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/dashboard/Notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/layout/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/layout/SignedInLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/layout/SignedOutLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/projects/CreateProject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/projects/ProjectDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/projects/ProjectList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/components/projects/ProjectSummary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/images.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/registerServiceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/tsconfig.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/tslint.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,30 +51,88 @@
     <session id="1392398922">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="js" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="43" />
+          <entry key="html" value="1" />
+          <entry key="js" value="430" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="43" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="430" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/layout/Navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/layout/SignedInLinks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my-app/public/index.html" />
+        <option value="$PROJECT_DIR$/my-app/src/App.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/layout/SignedInLinks.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/layout/Navbar.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -54,17 +149,15 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1913" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,16 +170,39 @@
               <item name="React-router-API" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="React-router-API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-router-API" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-router-API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-router-API" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="React-router-API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="React-router-API" type="462c0819:PsiDirectoryNode" />
+              <item name="my-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,40 +221,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9940e9e-d048-4293-a9cd-177bf1d8b437" name="Default Changelist" comment="" />
-      <created>1540274624576</created>
+      <changelist id="d52b0fa3-4421-405f-ac93-34a79b846848" name="Default Changelist" comment="" />
+      <created>1540798235797</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540274624576</updated>
-      <workItem from="1540274627948" duration="355000" />
+      <updated>1540798235797</updated>
+      <workItem from="1540798237414" duration="2958000" />
     </task>
-    <task id="LOCAL-00001" summary="start clean react Sass + Typescript">
-      <created>1540274922272</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1540274922272</updated>
-    </task>
-    <task id="LOCAL-00002" summary="start clean react Sass + Typescript">
-      <created>1540274975630</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540274975630</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355000" />
+    <option name="totallyTimeSpent" value="2958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Reviews" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -165,8 +266,70 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="start clean react Sass + Typescript" />
-    <option name="LAST_COMMIT_MESSAGE" value="start clean react Sass + Typescript" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="106" selection-start-line="25" selection-start-column="106" selection-end-line="25" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/projects/ProjectList.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/projects/ProjectDetails.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/projects/CreateProject.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/layout/SignedOutLinks.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/dashboard/Notifications.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/projects/ProjectSummary.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/auth/SingIn.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/auth/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/layout/SignedInLinks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/layout/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
